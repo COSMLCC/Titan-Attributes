@@ -1,0 +1,426 @@
+﻿#-=-=-=-=-=-=-=-=-=-=
+# DEMONIC TRAP
+#-=-=-=-=-=-=-=-=-=-=	
+
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[I]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cI &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else:
+			send "&cYou cannot apply a titan attribute to this item!"
+			stop
+			
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[II]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cII &7/ &cIV&7)||"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[III]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cIII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[IV]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cIV &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[I]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cI &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[II]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[III]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cIII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[IV]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cIV &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""ATLAS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[I]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cI &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""OURANOS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop	
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[II]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""OURANOS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[III]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cIII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""OURANOS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop
+on mor.inventory click:
+	if name of cursor item of player contains "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[IV]":
+		if event-item is any gold sword:
+			if lore of event-item does not contain "&c&lWEAPON ATTRIBUTE:":
+				cancel event
+				set lore of event-item to "%lore of event-item%||&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cIV &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000"
+				add "{cosmicData:{titanAttributeType:""OURANOS""}}" to item-nbt of event-item
+				set cursor item of player to air
+			else:
+				cancel event
+				message "&cThis item already contains a Titan Attribute!"
+				stop 
+		else if event-item is air:
+			stop
+		else:
+			send "&cYou cannot apply this titan attribute to this item!"
+			stop	
+		
+
+on damage of a player:
+	attacker is a player
+	if lore of attacker's held item contains "&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cI &7/ &cIV&7)":
+		chance of 1.0%:
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &c-> %victim% [&46s&c]" to attacker			
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &a%attacker% &c-> %victim% [&46s&c]" to victim	
+			remove slowness from victim			
+			remove jump boost from victim				
+			apply slowness 8 to victim for 6 seconds	
+			apply jump boost -50 to victim for 6 seconds				
+			wait 6 seconds	
+			send "&a&l(!) &aYou are no longer trapped!" to victim	
+	attacker is a player
+	if lore of attacker's held item contains "&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cII &7/ &cIV&7)":
+		chance of 2.0%:
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &c-> %victim% [&46s&c]" to attacker			
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &a%attacker% &c-> %victim% [&46s&c]" to victim	
+			remove slowness from victim			
+			remove jump boost from victim				
+			apply slowness 8 to victim for 6 seconds	
+			apply jump boost -50 to victim for 6 seconds				
+			wait 6 seconds	
+			send "&a&l(!) &aYou are no longer trapped!" to victim	
+	attacker is a player
+	if lore of attacker's held item contains "&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cIII &7/ &cIV&7)":
+		chance of 3.0%:
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &c-> %victim% [&46s&c]" to attacker			
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &a%attacker% &c-> %victim% [&46s&c]" to victim	
+			remove slowness from victim			
+			remove jump boost from victim				
+			apply slowness 8 to victim for 6 seconds	
+			apply jump boost -50 to victim for 6 seconds				
+			wait 6 seconds	
+			send "&a&l(!) &aYou are no longer trapped!" to victim
+	attacker is a player
+	if lore of attacker's held item contains "&c&lWEAPON ATTRIBUTE: &8&lDemonic Trap &7(&cIV &7/ &cIV&7)":
+		chance of 4.0%:
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &c-> %victim% [&46s&c]" to attacker			
+			send "&c&lWeapon Attribute &7(&8&lDemonic Trap&7) &a%attacker% &c-> %victim% [&46s&c]" to victim	
+			remove slowness from victim			
+			remove jump boost from victim				
+			apply slowness 8 to victim for 6 seconds
+			apply jump boost -50 to victim for 6 seconds				
+			wait 6 seconds	
+			send "&a&l(!) &aYou are no longer trapped!" to victim
+
+on damage:
+	if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cIV &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		if {titan-attribute.atlas::%attacker%} != 7:
+			set {_damage} to (damage*0.98)
+			set damage to {_damage}
+			add 1 to {titan-attribute.atlas::%attacker%}
+		else if {titan-attribute.atlas::%attacker%} = 7:
+			set {_damage} to (damage*1.05)
+			set damage to {_damage}
+			set {titan-attribute.atlas::%attacker%} to 0
+			send "&c&lTITAN ATTRIBUTE (&8&lAtlas&c&l) &f(x1.25 DMG &8- &7[%damage%&7])" to attacker
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cIII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		if {titan-attribute.atlas::%attacker%} != 7:
+			set {_damage} to (damage*0.98)
+			set damage to {_damage}
+			add 1 to {titan-attribute.atlas::%attacker%}
+		else if {titan-attribute.atlas::%attacker%} = 7:
+			set {_damage} to (damage*1.05)
+			set damage to {_damage}
+			set {titan-attribute.atlas::%attacker%} to 0
+			send "&c&lTITAN ATTRIBUTE (&8&lAtlas&c&l) &f(x1.25 DMG &8- &7[%damage%&7])" to attacker
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		if {titan-attribute.atlas::%attacker%} != 7:
+			set {_damage} to (damage*0.98)
+			set damage to {_damage}
+			add 1 to {titan-attribute.atlas::%attacker%}
+		else if {titan-attribute.atlas::%attacker%} = 7:
+			set {_damage} to (damage*1.05)
+			set damage to {_damage}
+			set {titan-attribute.atlas::%attacker%} to 0
+			send "&c&lTITAN ATTRIBUTE (&8&lAtlas&c&l) &f(x1.25 DMG &8- &7[%damage%&7])" to attacker
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lAtlas &7(&cI &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		if {titan-attribute.atlas::%attacker%} != 7:
+			set {_damage} to (damage*0.98)
+			set damage to {_damage}
+			add 1 to {titan-attribute.atlas::%attacker%}
+		else if {titan-attribute.atlas::%attacker%} = 7:
+			set {_damage} to (damage*1.05)
+			set damage to {_damage}
+			set {titan-attribute.atlas::%attacker%} to 0
+			send "&c&lTITAN ATTRIBUTE (&8&lAtlas&c&l) &f(x1.25 DMG &8- &7[%damage%&7])" to attacker
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cIV &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		set {_damage} to (damage/4)
+		set {titan-attribute.ouranos::%attacker%} to 0
+		chance of 50%:
+			loop all players in radius 3 of victim:
+				if loop-player != "%attacker%" or "%victim%":
+					damage loop-player by {_damage}
+					send "&c&lTITAN ATTRIBUTE: (&8&lOuranos&c&l) &7(>>> [%attacker%]: %{_damage}%)" to loop-player
+					push loop-player upwards at speed 0.2
+					push loop-player backwards at speed 0.3
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cIII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		set {_damage} to (damage/5)
+		set {titan-attribute.ouranos::%attacker%} to 0
+		chance of 50%:
+			loop all players in radius 3 of victim:
+				if loop-player != "%attacker%" or "%victim%":
+					damage loop-player by {_damage}
+					send "&c&lTITAN ATTRIBUTE: (&8&lOuranos&c&l) &7(>>> [%attacker%]: %{_damage}%)" to loop-player
+					push loop-player upwards at speed 0.2
+					push loop-player backwards at speed 0.3
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cII &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		set {_damage} to (damage/5)
+		set {titan-attribute.ouranos::%attacker%} to 0
+		chance of 50%:
+			loop all players in radius 3 of victim:
+				if loop-player != "%attacker%" or "%victim%":
+					damage loop-player by {_damage}
+					send "&c&lTITAN ATTRIBUTE: (&8&lOuranos&c&l) &7(>>> [%attacker%]: %{_damage}%)" to loop-player
+					push loop-player upwards at speed 0.2
+					push loop-player backwards at speed 0.3
+	else if lore of attacker's tool contains "&c&lWEAPON ATTRIBUTE: &8&lOuranos &7(&cI &7/ &cIV&7)||&c&lTITAN XP: &8&l0 / &c&l2000":
+		set {_damage} to (damage/6)
+		set {titan-attribute.ouranos::%attacker%} to 0
+		chance of 50%:
+			loop all players in radius 3 of victim:
+				if loop-player != "%attacker%" or "%victim%":
+					damage loop-player by {_damage}
+					send "&c&lTITAN ATTRIBUTE: (&8&lOuranos&c&l) &7(>>> [%attacker%]: %{_damage}%)" to loop-player
+					push loop-player upwards at speed 0.2
+					push loop-player backwards at speed 0.3
+					
+	
+
+command /titanattribute [<text>] [<player>] [<text>]:
+	aliases: /titan, /ta, /attribute, /runes
+	permission: t.admin
+	permission message: "&c&l(!) No Permission!"
+	trigger:
+		if arg 1 is not set:
+			send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+			send "&7"
+			send "&7Correct arugument:"
+			send "&7/titanattribute give COSMLC D1, D2, D3, D4"
+			send "&7"
+			send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+			stop
+		if arg 1 is not "give":
+			send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+			send "&7"
+			send "&7Correct arugument:"
+			send "&7/titanattribute give COSMLC D1, D2, D3, D4"
+			send "&7"
+			send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+			stop
+		if arg 1 is "give":
+			if arg 2 is not set:
+				send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+				send "&7"
+				send "&7Correct arugument:"
+				send "&7/titanattribute give COSMLC D1, D2, D3, D4"
+				send "&7"
+				send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+				stop
+			if arg 2 is set:
+				if arg 3 is "D1":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[I]" with lore "&c&lLevel: &81||&c&lApply: &8100%%||||&c&l""Demonic Trap""||&cDemonic Trap freezes your opponent||&cin place and could NOT be able to||&cMOVE until the ability wears off.||||&7Weapon Attributes can &nONLY&r &7be applied||&7to &cHeroic Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon.||"
+					stop
+				if arg 3 is "D2":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[II]" with lore "&c&lLevel: &82||&c&lApply: &8100%%||||&c&l""Demonic Trap""||&cDemonic Trap freezes your opponent||&cin place and could NOT be able to||&cMOVE until the ability wears off.||||&7Weapon Attributes can &nONLY&r &7be applied||&7to &cHeroic Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon.||"
+					stop
+				if arg 3 is "D3":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[III]" with lore "&c&lLevel: &83||&c&lApply: &8100%%||||&c&l""Demonic Trap""||&cDemonic Trap freezes your opponent||&cin place and could NOT be able to||&cMOVE until the ability wears off.||||&7Weapon Attributes can &nONLY&r &7be applied||&7to &cHeroic Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon.||"
+					stop
+				if arg 3 is "D4":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lDemonic Trap&c&l) &7[IV]" with lore "&c&lLevel: &84||&c&lApply: &8100%%||||&c&l""Demonic Trap""||&cDemonic Trap freezes your opponent||&cin place and could NOT be able to||&cMOVE until the ability wears off.||||&7Weapon Attributes can &nONLY&r &7be applied||&7to &cHeroic Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon.||"
+					stop
+				if arg 3 is "A1":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[I]" with lore "&c&lLevel: &81||&c&lApply: &8100%%||||&c&l""Compound Punishment""||&c%% of damage from attacks is combined||&cevery 2-5 attacks, depending on level||||&cExample: If you deal 10 DMG||&cper swing, you might deal 2 DMG||&cfor 2 swings, followed by 26 DMG||&con your 3rd swing.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "A2":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[II]" with lore "&c&lLevel: &82||&c&lApply: &8100%%||||&c&l""Compound Punishment""||&c%% of damage from attacks is combined||&cevery 2-5 attacks, depending on level||||&cExample: If you deal 10 DMG||&cper swing, you might deal 2 DMG||&cfor 2 swings, followed by 26 DMG||&con your 3rd swing.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "A3":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[III]" with lore "&c&lLevel: &83||&c&lApply: &8100%%||||&c&l""Compound Punishment""||&c%% of damage from attacks is combined||&cevery 2-5 attacks, depending on level||||&cExample: If you deal 10 DMG||&cper swing, you might deal 2 DMG||&cfor 2 swings, followed by 26 DMG||&con your 3rd swing.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "A4":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lAtlas&c&l) &7[IV]" with lore "&c&lLevel: &84||&c&lApply: &8100%%||||&c&l""Compound Punishment""||&c%% of damage from attacks is combined||&cevery 2-5 attacks, depending on level||||&cExample: If you deal 10 DMG||&cper swing, you might deal 2 DMG||&cfor 2 swings, followed by 26 DMG||&con your 3rd swing.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "O1":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[I]" with lore "&c&lLevel: &81||&c&lApply: &8100%%||||&c&l""Omni Combatant""||&cYour damage is converted into||&cAoE damage around your target.||&cDamage is diluted, but all enchants||&ccan still multi-proc. Your AoE radius||&cand max targets scale with level.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "O2":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[II]" with lore "&c&lLevel: &82||&c&lApply: &8100%%||||&c&l""Omni Combatant""||&cYour damage is converted into||&cAoE damage around your target.||&cDamage is diluted, but all enchants||&ccan still multi-proc. Your AoE radius||&cand max targets scale with level.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "O3":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[III]" with lore "&c&lLevel: &83||&c&lApply: &8100%%||||&c&l""Omni Combatant""||&cYour damage is converted into||&cAoE damage around your target.||&cDamage is diluted, but all enchants||&ccan still multi-proc. Your AoE radius||&cand max targets scale with level.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				if arg 3 is "O4":
+					give arg-2 a spider eye named "&c&lWeapon Attribute (&8&lOuranos&c&l) &7[IV]" with lore "&c&lLevel: &84||&c&lApply: &8100%%||||&c&l""Omni Combatant""||&cYour damage is converted into||&cAoE damage around your target.||&cDamage is diluted, but all enchants||&ccan still multi-proc. Your AoE radius||&cand max targets scale with level.||||&7Titan Attributes can &nONLY&f &7be applied||&7to &cRegular Weapons &7and only||&7&n1 attribute&r &7can be imbued per weapon||"
+					stop
+				send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+				send "&7"
+				send "&7Correct arugument:"
+				send "&7/titanattribute give COSMLC D1, D2, D3, D4"
+				send "&7"
+				send "&a-=-=-=-=-=-=-=- &e&lTitan Attribute &a-=-=-=-=-=-=-=-"
+				stop
+
+
+
+
+# Anti EAT
+on eating of spider eye:
+	cancel event
+on eating of spider eye:
+	cancel event
+on eating of spider eye:
+	cancel event
+on eating of spider eye:
+	cancel event
